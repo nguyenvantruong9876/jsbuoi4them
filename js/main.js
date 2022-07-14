@@ -238,7 +238,7 @@ function docso() {
             doc += 'chín trăm ';
             break;
         default:
-            alert('hãy nhập số ');
+            alert('chỉ nhập 3 số');
             break;
     }
     switch (hangchuc) {
@@ -273,7 +273,7 @@ function docso() {
             doc += 'chín mươi ';
             break;
         default:
-            alert('hãy nhập số ');
+            alert('chỉ nhập 3 số ');
             break;
     }
     switch (hangdonvi) {
@@ -308,7 +308,7 @@ function docso() {
             doc += 'chín';
             break;
         default:
-            alert('hãy nhập số');
+            alert('chỉ nhập 3 số');
             break;
     }
     document.getElementById('txtResultbai7').innerHTML = doc;
