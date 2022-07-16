@@ -315,7 +315,30 @@ function docso() {
 }
 document.getElementById("btnDocSo").onclick = docso;
 
-/**
+/**bai8
+ * Khối 1: Dữ liệu đang có sẵn (Input)
+ * có 3 sinh vien (name1 =>sinhvien1,name2 =>sinhvien2,name3 =>sinhvien3) 
+ * 
+ * có toa dọ x1 ,y1 , x2 , y2 ,x3 , y3 ,x4 , y4
+ * x1 ,y1 tọa dộ sinhvien1
+ * x2 ,y2 tọa dộ sinhvien2
+ * x3 ,y3 tọa dộ sinhvien3
+ * x4 , y4 tọa dộ truonghoc
+ * Khối 2:Các bước xử lý code
+ * B1: Tạo biến khaongcach
+ * B2:  Gan giá trị cho biến
+ * B3: Lập công thức tính toán
+ *    lấy tọa độ trường - tọa dô sinhvien1
+ *       khoangCachSv1 = Math.sqrt(Math.pow(x4 - x1, 2) + Math.pow(y4 - y1, 2));
+ * lấy tọa độ trường - tọa dô sinhvien2
+ *       khoangCachSv2 = Math.sqrt(Math.pow(x4 - x2, 2) + Math.pow(y4 - y2, 2));
+ * lấy tọa độ trường - tọa dô sinhvien3
+ *      khoangCachSv3 = Math.sqrt(Math.pow(x4 - x3, 2) + Math.pow(y4 - y3, 2));
+ *  so sanh diệu kiệu if elsse
+ * B4: Thông báo kết quả ở website
+ *  Sinh viên xa trường nhất
+ *Khối 3:Kết quả (Output)
+ * btnSearch hiên thi kết quả txtSearch
  * 
  */
 function Toado() {
